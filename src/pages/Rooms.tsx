@@ -137,11 +137,11 @@ export default function Rooms() {
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="aspect-square rounded-full overflow-hidden border-8 border-white/5"
+              className="aspect-square rounded-full overflow-hidden border-8 border-white/5 bg-white"
             >
               <img
-                src="https://images.unsplash.com/photo-1526015984814-e4558c4d3f1c?auto=format&fit=crop&q=70&w=800"
-                alt="Room Service"
+                src="https://images.unsplash.com/photo-1621591410224-f5627651c17a?auto=format&fit=crop&q=80&w=800"
+                alt="Our Hospitality Staff"
                 className="w-full h-full object-cover"
                 loading="lazy"
                 referrerPolicy="no-referrer"

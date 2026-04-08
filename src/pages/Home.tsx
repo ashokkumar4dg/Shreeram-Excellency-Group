@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/home/Hero';
 import RoomsPreview from '../components/home/RoomsPreview';
 import Amenities from '../components/home/Amenities';
+import LocationPreview from '../components/home/LocationPreview';
 import { motion } from 'motion/react';
 
 export default function Home() {
@@ -70,8 +71,8 @@ export default function Home() {
       <section className="relative h-[70vh] w-full overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=70&w=1200"
-            alt="Fine Dining"
+            src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1920"
+            alt="Fine Dining Experience"
             className="w-full h-full object-cover"
             loading="lazy"
             referrerPolicy="no-referrer"
@@ -102,6 +103,8 @@ export default function Home() {
       </section>
 
       <Amenities />
+      <LocationPreview />
     </div>
   );
 }
+

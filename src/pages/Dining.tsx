@@ -8,8 +8,8 @@ export default function Dining() {
       <section className="relative h-[80vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1550966842-28474670fb67?auto=format&fit=crop&q=75&w=1600"
-            alt="Restaurant Interior"
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1920"
+            alt="The Grand Palate Restaurant"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />

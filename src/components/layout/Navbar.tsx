@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <a href="tel:+911234567890" className="text-white/80 hover:text-white transition-colors">
+          <a href="tel:02912614100" className="text-white/80 hover:text-white transition-colors">
             <Phone size={18} />
           </a>
           <Link

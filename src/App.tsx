@@ -15,6 +15,8 @@ const Rooms = lazy(() => import('./pages/Rooms'));
 const Dining = lazy(() => import('./pages/Dining'));
 const Spa = lazy(() => import('./pages/Spa'));
 const Booking = lazy(() => import('./pages/Booking'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Gallery = lazy(() => import('./pages/Gallery'));
 
 function LoadingSpinner() {
   return (
@@ -46,6 +48,8 @@ function AnimatedRoutes() {
             <Route path="/dining" element={<Dining />} />
             <Route path="/spa" element={<Spa />} />
             <Route path="/booking" element={<Booking />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>
@@ -53,6 +57,7 @@ function AnimatedRoutes() {
     </AnimatePresence>
   );
 }
+
 
 
 export default function App() {

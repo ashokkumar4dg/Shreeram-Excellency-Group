@@ -63,11 +63,11 @@ export default function Footer() {
           <ul className="space-y-6 text-sm font-light text-white/70">
             <li className="flex gap-4">
               <MapPin size={18} className="text-brand-red shrink-0" />
-              <span>Sardarpura, Jodhpur, Rajasthan 342003, India</span>
+              <span>58, Residency Road, opp. Medical College, Jodhpur (Raj.)</span>
             </li>
             <li className="flex gap-4">
               <Phone size={18} className="text-brand-red shrink-0" />
-              <span>+91 291 261 4100</span>
+              <span>0291-2614100, 2614101</span>
             </li>
             <li className="flex gap-4">
               <Mail size={18} className="text-brand-red shrink-0" />
