@@ -40,7 +40,7 @@ export default function Spa() {
       <section className="relative h-[70vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=2070"
+            src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=75&w=1600"
             alt="Spa Interior"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

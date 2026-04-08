@@ -7,19 +7,19 @@ const rooms = [
   {
     title: 'Deluxe Room',
     description: 'Elegant comfort with modern amenities and city views.',
-    image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&q=80&w=2070',
+    image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&q=70&w=800',
     price: '₹4,500',
   },
   {
     title: 'Executive Suite',
     description: 'Spacious luxury designed for the discerning traveler.',
-    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=2074',
+    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=70&w=800',
     price: '₹7,500',
   },
   {
     title: 'Presidential Suite',
     description: 'The pinnacle of luxury with panoramic views and premium service.',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=2070',
+    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=70&w=800',
     price: '₹12,000',
   },
 ];
@@ -62,6 +62,7 @@ export default function RoomsPreview() {
                   src={room.image}
                   alt={room.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  loading="lazy"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-brand-charcoal/20 group-hover:bg-brand-charcoal/40 transition-colors duration-500" />

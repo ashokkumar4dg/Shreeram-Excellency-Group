@@ -8,7 +8,7 @@ const rooms = [
     id: 'deluxe',
     title: 'Deluxe Room',
     description: 'Our Deluxe Rooms offer a perfect blend of comfort and style. Featuring elegant furnishings and modern amenities, these rooms are ideal for both business and leisure travelers.',
-    image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&q=80&w=2070',
+    image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&q=70&w=1000',
     price: '₹4,500',
     size: '350 sq ft',
     amenities: [Wifi, Coffee, Tv, Wind],
@@ -17,7 +17,7 @@ const rooms = [
     id: 'executive',
     title: 'Executive Suite',
     description: 'Experience elevated luxury in our Executive Suites. With separate living and sleeping areas, these suites provide ample space and premium features for a truly sophisticated stay.',
-    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=2074',
+    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=70&w=1000',
     price: '₹7,500',
     size: '550 sq ft',
     amenities: [Wifi, Coffee, Tv, Wind, Shield],
@@ -26,7 +26,7 @@ const rooms = [
     id: 'presidential',
     title: 'Presidential Suite',
     description: 'The ultimate in luxury and exclusivity. Our Presidential Suite offers unparalleled views, bespoke service, and the finest amenities for an unforgettable experience.',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=2070',
+    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=70&w=1000',
     price: '₹12,000',
     size: '950 sq ft',
     amenities: [Wifi, Coffee, Tv, Wind, Shield],
@@ -78,6 +78,7 @@ export default function Rooms() {
                   src={room.image}
                   alt={room.title}
                   className="w-full aspect-[4/3] object-cover transition-transform duration-1000 group-hover:scale-110"
+                  loading="lazy"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute top-6 right-6 bg-brand-red text-white px-6 py-2 text-sm font-bold tracking-widest uppercase shadow-xl">
@@ -139,9 +140,10 @@ export default function Rooms() {
               className="aspect-square rounded-full overflow-hidden border-8 border-white/5"
             >
               <img
-                src="https://images.unsplash.com/photo-1526015984814-e4558c4d3f1c?auto=format&fit=crop&q=80&w=2070"
+                src="https://images.unsplash.com/photo-1526015984814-e4558c4d3f1c?auto=format&fit=crop&q=70&w=800"
                 alt="Room Service"
                 className="w-full h-full object-cover"
+                loading="lazy"
                 referrerPolicy="no-referrer"
               />
             </motion.div>

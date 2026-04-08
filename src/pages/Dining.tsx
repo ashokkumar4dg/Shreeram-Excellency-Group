@@ -8,7 +8,7 @@ export default function Dining() {
       <section className="relative h-[80vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1550966842-28474670fb67?auto=format&fit=crop&q=80&w=2071"
+            src="https://images.unsplash.com/photo-1550966842-28474670fb67?auto=format&fit=crop&q=75&w=1600"
             alt="Restaurant Interior"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -82,27 +82,31 @@ export default function Dining() {
             className="grid grid-cols-2 gap-4"
           >
             <img
-              src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=1000"
+              src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=70&w=600"
               alt="Food 1"
               className="w-full aspect-square object-cover rounded-sm shadow-xl"
+              loading="lazy"
               referrerPolicy="no-referrer"
             />
             <img
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000"
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=70&w=600"
               alt="Food 2"
               className="w-full aspect-square object-cover rounded-sm shadow-xl translate-y-8"
+              loading="lazy"
               referrerPolicy="no-referrer"
             />
             <img
-              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000"
+              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=70&w=600"
               alt="Food 3"
               className="w-full aspect-square object-cover rounded-sm shadow-xl -translate-y-8"
+              loading="lazy"
               referrerPolicy="no-referrer"
             />
             <img
-              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1000"
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=70&w=600"
               alt="Food 4"
               className="w-full aspect-square object-cover rounded-sm shadow-xl"
+              loading="lazy"
               referrerPolicy="no-referrer"
             />
           </motion.div>

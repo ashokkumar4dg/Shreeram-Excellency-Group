@@ -49,9 +49,10 @@ export default function Home() {
           >
             <div className="aspect-[4/5] rounded-sm overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070"
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=70&w=800"
                 alt="Hotel Exterior"
                 className="w-full h-full object-cover"
+                loading="lazy"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -69,9 +70,10 @@ export default function Home() {
       <section className="relative h-[70vh] w-full overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2070"
+            src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=70&w=1200"
             alt="Fine Dining"
             className="w-full h-full object-cover"
+            loading="lazy"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-brand-charcoal/60" />
